@@ -1,0 +1,102 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  color: #3669f7;
+}
+
+hr {
+  border-color: #3669f7;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+background-color: #3669f7 ;   
+border-width: 10px;
+transition: linear;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+ 
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.second {
+  background-color: #f6f7f2;
+  width:100vh;
+  opacity:1;
+  margin-left:0 0;
+}
+
+.footer {
+  height:20vh;
+  background-color:black;
+}
+
