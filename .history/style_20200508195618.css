@@ -155,7 +155,8 @@ header .overlay {
   opacity:1;
   margin-left:0 0;
   font-size:1.5rem;
-  padding:2rem;
+  padding-top: 2rem;
+  padding-bottom:2rem;
 }
 
 .content-head {
@@ -173,7 +174,7 @@ header .overlay {
 
 .content .top {
   padding-top:1rem;
-  padding-bottom:4rem;
+  padding-bottom:2rem;
 }
 
  .bottom {
