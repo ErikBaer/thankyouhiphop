@@ -22,7 +22,6 @@ font-family: 'SEGA LOGO FONT';
 .punch {
   height:50vh;
   padding-bottom:10rem;
-  z-index:5;
 }
 
 button{ 
@@ -111,37 +110,20 @@ header .overlay {
   }
 }
 
-
-.foot-item {
-  color:white;
-  background-color:black;
-  height:20vh;
-}
-/* Content Section */
-
-.content {
+.second {
   background-color: #f6f7f2;
   width:100vh;
-  height:50vh;
   opacity:1;
   margin-left:0 0;
-  padding:2rem;
+  margin-bottom:20rem;
 }
 
-.content
-
-.action {
-  font-size: 3em;
-  color: #3669f7;
-font-family: 'SEGA LOGO FONT';
-margin-top:5rem;
+.footer {
+  height:20vh;
+  background-color:black;
 }
-
-
-
 
 /* Dynamic Questionaire */
-
 
 .mm-survey {
 	margin-top: 75px;
@@ -361,8 +343,7 @@ input[type="radio"]:checked + label span {
 }
 
 .mm-next-btn button {
-  opacity: 0.5;
-  color:white;
+	opacity: 0.25;
 }
 
 .mm-next-btn button.ready {

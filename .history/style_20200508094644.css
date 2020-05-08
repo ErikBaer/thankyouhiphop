@@ -22,7 +22,6 @@ font-family: 'SEGA LOGO FONT';
 .punch {
   height:50vh;
   padding-bottom:10rem;
-  z-index:5;
 }
 
 button{ 
@@ -111,30 +110,26 @@ header .overlay {
   }
 }
 
-
-.foot-item {
-  color:white;
-  background-color:black;
-  height:20vh;
+.second {
+  background-color: #f6f7f2;
+  width:100vh;
+  opacity:1;
+  margin-left:0 0;
+  margin-bottom:20rem;
 }
+
+.footer {
+  height:20vh;
+  background-color:black;
+}
+
 /* Content Section */
 
 .content {
   background-color: #f6f7f2;
   width:100vh;
-  height:50vh;
   opacity:1;
   margin-left:0 0;
-  padding:2rem;
-}
-
-.content
-
-.action {
-  font-size: 3em;
-  color: #3669f7;
-font-family: 'SEGA LOGO FONT';
-margin-top:5rem;
 }
 
 

@@ -112,10 +112,14 @@ header .overlay {
 }
 
 
+.footer {
+  height:20vh;
+  background-color:black;
+  color:white;
+}
+
 .foot-item {
   color:white;
-  background-color:black;
-  height:20vh;
 }
 /* Content Section */
 

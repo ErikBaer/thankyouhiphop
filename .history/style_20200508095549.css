@@ -112,11 +112,11 @@ header .overlay {
 }
 
 
-.foot-item {
-  color:white;
-  background-color:black;
+.footer {
   height:20vh;
+  background-color:black;
 }
+
 /* Content Section */
 
 .content {
@@ -125,19 +125,17 @@ header .overlay {
   height:50vh;
   opacity:1;
   margin-left:0 0;
-  padding:2rem;
 }
-
-.content
 
 .action {
+  color:white;
+  height:50vh;
   font-size: 3em;
   color: #3669f7;
+  margin-top:3rem;
 font-family: 'SEGA LOGO FONT';
-margin-top:5rem;
+margin:0 0;
 }
-
-
 
 
 /* Dynamic Questionaire */
