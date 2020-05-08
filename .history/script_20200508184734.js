@@ -7,7 +7,7 @@ jQuery(document).ready(function () {
                 1: {
                     'type': 'radio',
                     'dynamic': true,
-                    'route': 3,
+                    'route': 4,
                     'item': 'yes'
                 },
                 2: {
@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
                 1: {
                     'type': 'radio',
                     'dynamic': true,
-                    'route': 3,
+                    'route': 4,
                     'item': 'yes'
                 },
                 2: {
@@ -36,37 +36,37 @@ jQuery(document).ready(function () {
             }
         },
         3: {
-            'question': 'Which decade got you hooked?',
+            'question': 'What do you want then?',
             'answer': {
                 1: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 5,
-                    'item': '80'
+                    'item': 'namecheap.com'
                 },
                 2: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 5,
-                    'item': '90'
+                    'item': 'godaddy.com'
                 },
                 3: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 5,
-                    'item': '2000'
+                    'item': 'bluehost.com'
                 },
                 4: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 5,
-                    'item': '2010'
+                    'item': '1and1.com'
                 },
                 5: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 5,
-                    'item': '2020'
+                    'item': 'other'
                 }
             }
         },
@@ -101,43 +101,43 @@ jQuery(document).ready(function () {
                     'type': 'text',
                     'dynamic': true,
                     'route': 3,
-                    'placeholder': 'Maoam',
+                    'placeholder': 'example.com',
                     'identity': 'mm-dynamic-domain'
                 }
             }
         },
         5: {
-            'question': 'What`s your main relationship?',
+            'question': 'Who is hosting your domain?',
             'answer': {
                 1: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 6,
-                    'item': 'Microphone'
+                    'item': 'godaddy'
                 },
                 2: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 6,
-                    'item': 'Turntables'
+                    'item': 'host gator'
                 },
                 3: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 6,
-                    'item': 'Cardboard'
+                    'item': 'amazon'
                 },
                 4: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 6,
-                    'item': 'Whole-Cars'
+                    'item': 'not listed'
                 },
                 5: {
                     'type': 'radio',
                     'dynamic': true,
                     'route': 6,
-                    'item': 'Hip Hop is running through my veins.'
+                    'item': 'no one...'
                 }
             }
         },

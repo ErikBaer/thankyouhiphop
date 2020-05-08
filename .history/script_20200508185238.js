@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
                 1: {
                     'type': 'radio',
                     'dynamic': true,
-                    'route': 3,
+                    'route': 4,
                     'item': 'yes'
                 },
                 2: {
