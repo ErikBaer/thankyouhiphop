@@ -112,17 +112,15 @@ header .overlay {
 }
 
 .footer {
-  width: 60%;
+  width: 75%;
 } 
 
 .foot-item {
   color:white;
-  /* padding-top:1rem; */
-  padding-bottom:3rem;
 }
 
-.foot-item h1 {
-  margin:0;
+.baer {
+  vertical-align:middle
 }
 
 .baer img{
@@ -130,6 +128,7 @@ header .overlay {
   margin:auto 0;
   vertical-align: center;
   padding: 25px auto;
+  padding-bottom:3rem;
 }
 
 .face img {

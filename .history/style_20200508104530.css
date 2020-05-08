@@ -112,17 +112,16 @@ header .overlay {
 }
 
 .footer {
-  width: 60%;
+  width: 75%;
+  padding-bottom:5rem;
 } 
 
 .foot-item {
   color:white;
-  /* padding-top:1rem; */
-  padding-bottom:3rem;
 }
 
-.foot-item h1 {
-  margin:0;
+.baer {
+  vertical-align:middle
 }
 
 .baer img{

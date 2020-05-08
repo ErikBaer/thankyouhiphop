@@ -112,13 +112,12 @@ header .overlay {
 }
 
 .footer {
-  width: 60%;
+  width: 70%;
 } 
 
 .foot-item {
   color:white;
-  /* padding-top:1rem; */
-  padding-bottom:3rem;
+  padding:3rem 0;
 }
 
 .foot-item h1 {
