@@ -181,6 +181,12 @@ header .overlay {
   height:240px;
 }
 
+.action {
+  font-size: 3em;
+  color: #3669f7;
+font-family: 'SEGA LOGO FONT';
+margin-top:10rem;
+}
 
 
 

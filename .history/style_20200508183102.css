@@ -153,13 +153,12 @@ header .overlay {
   opacity:1;
   margin-left:0 0;
   font-size:1.5rem;
-  padding-top: 2rem;
 }
 
 .content-head {
-  background-color:#f6f7f2;
-  /* margin-bottom:2rem; */
-  /* padding-bottom:2rem; */
+  /* background-color:#f6f7f2; */
+  margin:0;
+  padding:0;
 }
 
 .content h1 {
@@ -173,14 +172,19 @@ header .overlay {
 }
 
 .content .bottom {
-  padding-top:1rem;
-  padding-bottom:8rem
+  padding-bottom:2rem
 }
 
 .content img {
   height:240px;
 }
 
+.action {
+  font-size: 3em;
+  color: #3669f7;
+font-family: 'SEGA LOGO FONT';
+margin-top:5rem;
+}
 
 
 
