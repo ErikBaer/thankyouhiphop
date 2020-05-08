@@ -152,19 +152,11 @@ header .overlay {
   height:auto;
   opacity:1;
   margin-left:0 0;
-  font-size:1.5rem;
-}
-
-.content .top {
-  padding-top:2rem
-}
-
-.content .bottom {
-  padding-bottom:2rem
+  padding:2rem;
 }
 
 .content img {
-  height:240px;
+  height:200px;
 }
 
 .action {

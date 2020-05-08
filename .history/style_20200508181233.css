@@ -155,14 +155,6 @@ header .overlay {
   font-size:1.5rem;
 }
 
-.content .top {
-  padding-top:2rem
-}
-
-.content .bottom {
-  padding-bottom:2rem
-}
-
 .content img {
   height:240px;
 }
