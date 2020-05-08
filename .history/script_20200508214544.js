@@ -954,9 +954,9 @@ jQuery(document).ready(function () {
 
 window.sr = ScrollReveal();
 sr.reveal('.punch', { duration: 2500 });
-sr.reveal('.button', { duration: 2500, delay: 2500 });
+sr.reveal('button', { duration: 2500, delay: 2500 });
 sr.reveal('.content-box', { duration: 2500 });
-sr.reveal('.content-img', { duration: 2000, delay: 500 });
+sr.reveal('.content-img', { duration: 1000, delay: 5000 });
 sr.reveal('.punch', { duration: 2500 });
 sr.reveal('.action', { duration: 2500 });
 sr.reveal('#survey', { duration: 2500 });

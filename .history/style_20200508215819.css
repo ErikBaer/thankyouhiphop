@@ -35,11 +35,8 @@ font-family: 'SEGA LOGO FONT';
   border-width:0px;
   padding:0.5rem 2rem;
   color:white;
-  cursor:pointer;
-  text-decoration:none;
-  transition: 1s ease-in-out;
+  cursor:pointer
 }
-
 
 
 hr {
