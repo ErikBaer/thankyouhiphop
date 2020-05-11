@@ -101,8 +101,8 @@ jQuery(document).ready(function () {
                     'type': 'text',
                     'dynamic': true,
                     'route': 3,
-                    'placeholder': 'Maoam.com',
-                    'identity': 'mm-dynamic-fn'
+                    'placeholder': 'Maoam',
+                    'identity': 'mm-dynamic-domain'
                 }
             }
         },
@@ -870,7 +870,7 @@ jQuery(document).ready(function () {
             collectData();
             jQuery('.mm-survey-bottom').slideUp();
             jQuery('.mm-survey-results').slideDown();
-            console.log('run submit Data')
+            console.lod('run submit Data')
         });
     }
 
@@ -894,7 +894,7 @@ jQuery(document).ready(function () {
             id = item.data('group');
             data = item.val();
             name = item.data('item');
-            console.log(id, item, survey[id].question + ' - ' + data);
+            // console.log(survey[id].question + ' - ' + data);
             jQuery('.mm-survey-results-list').append('<li class="mm-survey-results-item correct"><span class="mm-item-number">' + (index + 1) + '</span><span class="mm-item-info">' + survey[id].question + ' - ' + data + '</span></li>');
             // n = parseInt(data);
             // total += n;

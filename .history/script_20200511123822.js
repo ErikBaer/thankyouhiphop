@@ -101,8 +101,8 @@ jQuery(document).ready(function () {
                     'type': 'text',
                     'dynamic': true,
                     'route': 3,
-                    'placeholder': 'Maoam.com',
-                    'identity': 'mm-dynamic-fn'
+                    'placeholder': 'Maoam',
+                    'identity': 'mm-dynamic-domain'
                 }
             }
         },

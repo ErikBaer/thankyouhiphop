@@ -102,7 +102,7 @@ jQuery(document).ready(function () {
                     'dynamic': true,
                     'route': 3,
                     'placeholder': 'Maoam.com',
-                    'identity': 'mm-dynamic-fn'
+                    'identity': 'mm-dynamic'
                 }
             }
         },
