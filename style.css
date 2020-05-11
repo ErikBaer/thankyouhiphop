@@ -183,6 +183,9 @@ header .overlay {
   margin-top:2rem;
 }
 
+#survey {
+  min-height: 60vh;
+}
 
 
 /* Dynamic Questionaire */
@@ -195,7 +198,7 @@ header .overlay {
 
 .mm-survey-container {
 	width: 100%;
-	min-height: 600px;
+	height: 600px;
 	background: #fafafa;
 }
 
@@ -421,7 +424,12 @@ input[type="radio"]:checked + label span {
 }
 
 .mm-survey-results {
-	display: none;
+  display: none;
+}
+
+.mm-survey-results img {
+ max-height:600px;
+ 
 }
 
 .mm-survey-results-score {
