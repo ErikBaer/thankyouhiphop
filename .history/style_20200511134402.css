@@ -259,7 +259,7 @@ header .overlay {
 }
 
 .mm-finish-btn button {
-	background: #3669f7 !important;
+	background: #3DD2AF !important;
     color: #fff;
 }
 
@@ -380,7 +380,7 @@ input[type="radio"] + label span {
 }
 
 input[type="radio"]:checked + label span {
-	border: 2px solid #3669f7;
+	border: 2px solid #3DD2AF;
 	background: transparent;
 }
 
