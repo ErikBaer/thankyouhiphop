@@ -357,7 +357,6 @@ header .overlay {
     border: none;
     text-indent: 15px;
     font-size: 18px;
-    font-family: 'Overlock', cursive;
 }
 
 .mm-dynamic-input input:focus, .mm-dynamic-form input:focus, .mm-dynamic-datetime input:focus {
